@@ -1,0 +1,16 @@
+.ui-shoping-alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F7A428;
+    height: 52px;
+    border-radius: 6px;
+    padding: 0 2rem;
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+}

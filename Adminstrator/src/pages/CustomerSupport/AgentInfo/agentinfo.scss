@@ -1,0 +1,120 @@
+.ui-agent-info-box {
+    padding: 50px 0;
+}
+
+.ui-ai-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+
+    h4 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0C0C0C;
+        margin-bottom: 0;
+    }
+}
+
+.ui-ai-star {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FBBC05;
+}
+
+.ui-ai-back-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 10px;
+
+    a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #616161;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+}
+
+.ui-ai-table {
+    border: 1px solid #CBCBCB;
+    padding: 1rem;
+}
+
+.ui-ai-table-head {
+    padding-bottom: 1rem;
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 190px 100px 200px 1fr;
+
+        li {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+}
+
+.ui-ai-table-content {
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    padding: 8px 0;
+
+    &:last-of-type {
+        border-top: 0;
+    }
+}
+
+.ui-ai-table-content button:first-of-type {
+    padding: 0;
+    border: 0;
+    background: none;
+    user-select: none;
+
+    ul {
+        display: grid;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        grid-template-columns: 190px 100px 200px 1fr;
+        text-align: start;
+
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+}
+
+.ui-ai-table-star {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FBBC05;
+}
+
+.ui-ait-content {
+    padding: 10px 0;
+}
+
+.ui-ait-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    color: #616161;
+    margin-bottom: 0;
+}

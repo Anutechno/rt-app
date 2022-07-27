@@ -1,0 +1,43 @@
+.claim-progress-bar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  max-width: 670px;
+  position: relative;
+
+  .claim-bar {
+    width: 100%;
+    height: 8px;
+    margin-bottom: 15px;
+  }
+
+  .claim-position-status {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #616161;
+
+    .progress-arrow-down {
+      &::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: -20px;
+        width: 0;
+        z-index: 1;
+        right: 50%;
+        border: medium solid #2aac27;
+        border-width: 8px 0px 8px 6px;
+        border-color: transparent transparent transparent #2aac27;
+        transform: rotate(90deg);
+      }
+    }
+
+    .status-active {
+      color: #2aac27;
+    }
+  }
+
+  .progress-bar {
+    background-color: #2aac27;
+  }
+}

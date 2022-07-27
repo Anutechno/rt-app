@@ -1,0 +1,83 @@
+.ui-chat-rating-box {
+    padding: 14px;
+
+    .form-label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1C1C1C;
+
+    }
+
+    .form-control {
+        height: 80px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #CBCBCB;
+        }
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        color: #6C757D;
+        display: block;
+        text-align: right;
+        padding-top: 4px;
+    }
+
+    p {
+        &:first-of-type {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #1C1C1C;
+            padding-bottom: 1rem;
+        }
+
+        &:last-of-type {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #000000;
+        }
+    }
+
+    .btn {
+        background: #0072BC;
+        border-radius: 6px;
+        height: 38px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+
+        &:hover {
+            background-color: #035d99;
+        }
+    }
+}
+
+.ui-chat-rating-star {
+    label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000000;
+    }
+}

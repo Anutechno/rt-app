@@ -1,0 +1,246 @@
+.ui-checkout {
+    padding: 50px 0;
+}
+
+.ui-csh-form {
+    // padding-right: 1rem;
+
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(14px, -10px) scale(0.75) !important;
+        background: #fff;
+        padding: 0 4px;
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+        transform: translate(14px, 10px) scale(1);
+    }
+
+    .ui-phone-no label.Mui-focused {
+        padding: 0 4px !important;
+    }
+
+    .ui-phone-no .PhoneInputCountrySelectArrow {
+        top: 0;
+    }
+
+    .ui-phone-no #phoneNumber {
+        padding-left: 139px !important;
+    }
+}
+
+.ui-checkout-shipping-head {
+    >.card {
+        padding: 1rem;
+        border-radius: 6px;
+    }
+}
+
+.ui-csh-payment-card,
+.ui-csh-title {
+    padding-bottom: 1rem;
+
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #1C1C1C;
+    }
+}
+
+.ui-csh-form-btn {
+    display: flex;
+    gap: 12px;
+
+    button {
+        width: 100%;
+    }
+}
+
+.ui-csh-details {
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1C1C1C;
+        }
+    }
+
+    button {
+        background: none;
+        padding: 0;
+        border: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: #0072BC;
+        margin-top: 1rem;
+    }
+}
+
+.ui-csh-payment-card-details {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.ui-csh-payment-card-box {
+    display: flex;
+    gap: 8px;
+}
+
+.ui-csh-payment-card-details {
+
+    .ui-csh-pc {
+        border: 1px solid #CBCBCB;
+        height: 36px;
+        width: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.ui-csh-pcd-right {
+    h4 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #000000;
+    }
+
+    >button {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #0072BC;
+        padding: 0;
+        border: none;
+        background: none;
+        margin: 6px 0;
+
+        &.show {
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        li {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            color: #6C757D;
+        }
+    }
+}
+
+.ui-csh-add-new-card {
+    padding-top: 10px;
+
+    button {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: none;
+        border: none;
+        padding: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #0072BC;
+    }
+}
+
+.ui-csh-pcd-bottom-btn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    button {
+        text-transform: capitalize;
+        width: 100px;
+
+        &:first-of-type {
+            background-color: #0072BC;
+        }
+
+        &:last-of-type {
+            color: #0072BC;
+            border-color: #0072BC;
+        }
+    }
+}
+
+.ui-csh-pcd-billing-add-edit {
+    width: 100%;
+
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(14px, -10px) scale(0.75) !important;
+        background: #fff;
+        padding: 0 4px;
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+        transform: translate(14px, 10px) scale(1);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #6C757D;
+
+
+    }
+
+    form {
+        p {
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 120%;
+            color: #1C1C1C;
+            padding-bottom: 1rem;
+            padding-top: 10px;
+        }
+    }
+}
+
+.ui-edit-csg-pcd-list {
+    ul {
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1C1C1C;
+        }
+    }
+
+    button {
+        padding: 0;
+        border: 0;
+        background: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #0072BC;
+        margin: 10px 0;
+    }
+}

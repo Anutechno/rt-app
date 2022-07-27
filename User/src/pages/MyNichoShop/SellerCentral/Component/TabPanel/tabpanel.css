@@ -1,0 +1,42 @@
+.button_h {
+  background: #2aac27 !important;
+  width: 254px;
+  height: 40px;
+}
+
+.holder {
+  margin: 0px !important;
+  margin-top: 50px !important;
+}
+.col_holder {
+  background: #edf6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 35px !important;
+  color: #0072bc;
+  /* margin-left: 4% !important; */
+}
+
+.nav-tabs {
+  width: 254px;
+  /* margin: 0px auto !important; */
+}
+.main-overview-list {
+  max-width: 90%;
+  margin: 20px auto;
+}
+.cols_holder {
+  /* margin-left: 4% !important; */
+  padding: 0 !important;
+}
+.padding_right_spacing {
+  padding-right: 5% !important;
+  padding-left: 0 !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #0d6efd;
+  background-color: lightblue;
+}

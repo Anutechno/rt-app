@@ -1,0 +1,630 @@
+/* ----------------------------------------------------------------
+	authContainer for SignIn, Sign Up
+-----------------------------------------------------------------*/
+.authContainer {
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.authContainer header {
+  padding: 18px;
+}
+
+.authContainer header .logo {
+  width: 213px;
+  margin: auto;
+  display: block;
+}
+
+.authContainer header p,
+.authContainer footer p,
+.authContainer .agreementText {
+  text-align: right;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1c1c1c;
+  margin: 0px;
+}
+
+.authContainer footer p {
+  color: #6c757d;
+}
+
+.authContainer header p .redirectLink,
+.authContainer footer p .redirectLink,
+.authContainer .agreementText .redirectLink {
+  color: #0072bc;
+  font-weight: bold;
+}
+
+.authContainer .redirectLink {
+  color: #0072bc;
+}
+
+.authContainer footer p,
+.authContainer .agreementText {
+  font-size: 16px;
+}
+
+.authContainer footer p .redirectLink,
+.authContainer .agreementText .redirectLink {
+  font-weight: 400;
+}
+
+.authContainer .agreementText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #616161;
+  margin-top: 15px;
+}
+
+.authContainer footer {
+  border-top: 1px solid #cbcbcb;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.authFormSection {
+  padding: 40px 0px;
+}
+
+.authContainer .authFormSection .authFormBox {
+  width: 540px;
+  max-width: 100%;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  margin: auto;
+  padding: 40px;
+  position: relative;
+}
+
+.authContainer .authFormSection .authFormBox .formTitle {
+  margin: 0px 0px 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.authContainer .authFormSection .authFormBox .formTitle h2 {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: #1c1c1c;
+  margin: 0px;
+}
+
+.authContainer .authFormSection .switchAcoount p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1c1c;
+  margin: 10px 0px 0px;
+  text-align: center;
+}
+
+.authContainer button.noBgThemeBtn {
+  color: #0072bc;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.authContainer .authFormSection .authFormBox .textField {
+  margin-bottom: 20px;
+}
+
+.authContainer .authFormSection .authFormBox .textField label {
+  color: #cbcbcb;
+}
+
+.authContainer .authFormSection .authFormBox .textField fieldset {
+  border: 1px solid #cbcbcb;
+}
+
+.authContainer .authFormSection .authFormBox .textField label.Mui-focused {
+  color: #0072bc;
+}
+
+.authContainer .authFormSection .authFormBox .textField .Mui-focused fieldset {
+  border-color: #0072bc;
+}
+
+.authContainer .authFormSection .authFormBox .textField .eyeIcon {
+  color: #1c1c1c;
+  font-size: 22px;
+}
+
+.authContainer
+  .authFormSection
+  .authFormBox
+  .textField
+  .error
+  label.Mui-focused {
+  color: #ff6666 !important;
+}
+
+.authContainer .authFormSection .authFormBox .textField .error fieldset {
+  border-color: #ff6666 !important;
+}
+
+.authContainer .authFormSection .authFormBox .countryCode input {
+  width: 65px;
+  max-width: 100%;
+}
+
+.authContainer .authFormSection .authFormBox .countryCode input {
+  -webkit-text-fill-color: #000000;
+  color: #000000;
+  border-right: 1px solid #c4c4c4;
+  padding: 0px;
+}
+
+.authContainer .socialLogin {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+
+.authContainer .socialLogin button {
+  background: #ffffff;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #1c1c1c;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.authContainer .socialLogin button img {
+  flex: 1;
+  max-width: 20px;
+}
+
+.authContainer .socialLogin button span {
+  flex: 1;
+  justify-self: center;
+}
+
+.authContainer .socialLogin button .appleLogin {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.authContainer .socialLogin button .appleLogin img {
+  max-width: 100%;
+}
+
+.countryPhoneCode label,
+.countryPhoneCode #phoneNumber {
+  padding-left: 125px;
+}
+
+.countryPhoneCode label.MuiFormLabel-filled,
+.countryPhoneCode label.Mui-focused {
+  padding: 0px;
+}
+
+.countryPhoneCode legend {
+  width: 125px;
+}
+
+.countryCodeInput > div:before {
+  display: none;
+}
+
+.countryPhoneCode .countryCode {
+  position: absolute;
+  left: 12px;
+}
+
+/* ----------------------------------------------------------------
+	Sign Up Form
+-----------------------------------------------------------------*/
+.signUpContainer .authFormBox .radioBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.signUpContainer .authFormBox .radioBox label {
+  margin: 0px 20px;
+}
+
+.signUpContainer .authFormBox .radioBox .MuiFormControlLabel-label {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.signUpContainer .authFormBox .radioBox .Mui-checked {
+  color: #2aac27;
+}
+
+.themeBtn {
+  background: #0072bc;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.formSeperator {
+  letter-spacing: 0.1em;
+  margin: 25px auto;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 14px;
+  color: #616161;
+  display: flex;
+  align-items: center;
+}
+
+.formSeperator::before,
+.formSeperator::after {
+  content: "";
+  position: relative;
+  border-top: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+.formSeperator::before {
+  right: 0.5em;
+}
+
+.formSeperator::after {
+  left: 0.5em;
+}
+
+.textField p.formError {
+  margin: 5px 0px 0px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ff6666;
+}
+
+.signUpContainer .successfullSignup {
+  margin-top: 50px;
+}
+
+.signUpContainer .successfullSignup .borderBox {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 30px 40px 20px;
+  width: 850px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.signUpContainer .successfullSignup .borderBox .title {
+  margin: 0px 0px 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cbcbcb;
+  font-weight: 600;
+  font-size: 22px;
+  color: #1c1c1c;
+}
+
+.signUpContainer .successfullSignup .borderBox p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #616161;
+  margin: 0px 0px 20px 0px;
+}
+
+.signUpContainer .successfullSignup .borderBox p span {
+  color: #000000;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover {
+  position: relative;
+  padding-bottom: 20px;
+  width: max-content;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover .tooltipBox {
+  display: none;
+  padding: 20px;
+  box-shadow: 0px 0px 15px #0000002e;
+  position: absolute;
+  width: 300px;
+  z-index: 10;
+  top: 40px;
+  left: -30px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover > .redirectLink {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0072bc;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover .tooltipBox:after {
+  border: solid;
+  border-color: #fff transparent;
+  border-width: 0px 25px 20px 25px;
+  content: "";
+  left: 40%;
+  top: -12px;
+  position: absolute;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover:hover .tooltipBox,
+.signUpContainer .successfullSignup .toolTipsHover .tooltipBox:hover {
+  display: block;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover .tooltipBox ul {
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.signUpContainer .successfullSignup .toolTipsHover .tooltipBox ul li {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.signUpContainer
+  .successfullSignup
+  .toolTipsHover
+  .tooltipBox
+  ul
+  li
+  .redirectLink {
+  font-weight: 500;
+  font-size: 16px;
+  color: #0072bc;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+/* ----------------------------------------------------------------
+	Sign In Form
+-----------------------------------------------------------------*/
+.signInContainer .formFooterLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.signInContainer .formFooterLinks p {
+  margin-top: 12px;
+}
+
+.signInContainer .recaptchaBox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.signInContainer .authFormSection .successMsg {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2aac27;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.signInContainer .authFormSection .failedMsg {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ff6666;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.signInContainer .authFormSection .successMsg svg,
+.signInContainer .authFormSection .failedMsg svg {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.choose-method .formTitle h2 {
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 26px;
+  color: #1C1C1C !important;
+  text-align: left !important;
+}
+
+.choose-method a.choose-option {
+  background: #FFFFFF;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  padding-bottom: 24px;
+}
+.choose-method .authFormBox {
+  border: unset !important;
+  padding: 0px !important;
+}
+.choose-method a.choose-option strong svg {
+  fill: #1FAEFF;
+  font-size: 40px;
+  margin-right: 12px;
+}
+
+.choose-method a.choose-option strong svg path {}
+
+.choose-method strong {
+  color: #0072BC;
+}
+
+.choose-method p.formError {
+  padding-left: 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6C757D;
+  word-break: break-all;
+}
+.choose-method form p {
+  margin-bottom: 15px !important;
+}
+.choose-method .choose-option-txt h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1C1C1C;
+  margin-top: 30px !important;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-bottom: 14px;
+}
+.choose-method .authFormBox .formTitle {border: unset !important;margin-bottom: 0 !important;}
+.choose-method p.formError {
+  margin-bottom: 0 !important;
+}
+.choose-method p.formError strong {color: #000;font-weight: 400;}
+.choose-method strong img {position: relative;top: 12px;margin-right: 12px;}
+.choose-method .choose-option-txt p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6C757D;
+  margin-bottom: 10px !important;
+}
+
+.choose-method .choose-option-txt span {font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #6C757D;}
+.choose-method p.failedMsg {align-items: flex-start !important;display: flex;border: 1px solid #FF6666;
+  border-radius: 6px;padding: 15px;margin-bottom: 15px !important;font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  }
+.choose-method .failedMsg svg {
+    font-size: 28px !important;
+}
+.PasswordAssistance header .col-lg-6 img {display: block;margin: auto;}
+ul.forget-pass-options {text-align: center;list-style: none;padding: 0px;margin-top: 26px;}
+ul.forget-pass-options li {margin-bottom: 10px;font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;text-align: center;color: #1C1C1C;}
+
+ul.forget-pass-options li a {font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;text-align: center;color: #0072BC;}
+.forget-pass .authFormBox p {margin-bottom: 12px !important;}
+.forget-pass .authFormBox .textField {
+    margin-bottom: 0 !important;
+}
+.temp-password form p {
+    margin-bottom: 12px !important;
+}
+.temp-password-btn {display: grid;grid-template-columns: 1fr 1fr;align-items: center;justify-content: center;text-align: center;grid-column-gap: 25px;}
+.temp-password-btn a.noBgThemeBtn {border: 1px solid #0072bc;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;padding: 10px 15px;color: #0072bc;margin-bottom: 0px !important;}
+.add-number form .textField p {
+    margin-bottom: 20px !important;
+}
+.add-number .not-now{
+  text-align: center;
+  margin-top: 20px;
+}
+.resend-suc{
+  text-align: center;
+  margin-top: 20px;
+}
+/* ----------------------------------------------------------------
+	Responsive Design
+-----------------------------------------------------------------*/
+
+@media (max-width: 575px) {
+.create-pass .authFormBox {
+    padding: 30px 20px !important;
+}
+.choose-method a.choose-option {
+    padding: 20px 24px;
+}
+.temp-password .authFormBox {
+    padding: 30px 20px !important;
+}
+footer p {
+  font-size: 14px !important;
+}
+.choose-method .choose-option-txt h2 {
+  margin-top: 24px !important;
+}
+  .authContainer .authFormSection .authFormBox {
+    padding: 20px;
+  }
+  .authContainer header p, .authContainer footer p, .authContainer .agreementText {
+    font-size: 16px;
+}
+  .authFormSection {
+    padding: 40px 15px;
+  }
+
+  .signUpContainer .authFormBox .radioBox {
+    justify-content: space-between;
+  }
+
+  .signUpContainer .authFormBox .radioBox label {
+    margin: 0px;
+  }
+
+  .signUpContainer .authFormBox .radioBox .MuiRadio-root {
+    padding: 0px;
+    margin-right: 5px;
+  }
+
+  .signUpContainer .authFormBox .radioBox .MuiFormControlLabel-label {
+    font-size: 16px;
+  }
+
+  .signUpContainer .successfullSignup .borderBox {
+    padding: 30px 20px 0px;
+  }
+
+  .signUpContainer .successfullSignup .borderBox p,
+  .signUpContainer .successfullSignup .toolTipsHover > .redirectLink {
+    font-size: 16px;
+  }
+
+  .signUpContainer .successfullSignup .toolTipsHover .tooltipBox {
+    left: -15px;
+  }
+}

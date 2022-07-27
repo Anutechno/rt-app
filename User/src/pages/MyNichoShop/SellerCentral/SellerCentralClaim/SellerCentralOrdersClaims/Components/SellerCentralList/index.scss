@@ -1,0 +1,46 @@
+.seller-central-list {
+  button {
+    width: 100%;
+    height: 40px;
+    background: #2aac27;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .list-menu {
+    border: 1px solid #cbcbcb;
+    border-radius: 6px;
+
+    ul {
+      width: 100%;
+      margin: 0;
+      padding: 15px 0;
+
+      li {
+        list-style-type: none;
+
+        a {
+          display: inline-block;
+          width: 100%;
+          padding: 13px 21px;
+          font-weight: 500;
+          font-size: 1.1em;
+          color: black;
+          line-height: 1.35em;
+
+          &.menu-list-active {
+            background-color: #edf6ff !important;
+            color: #0072bc !important;
+            outline: 1px solid #edf6ff;
+          }
+        }
+      }
+
+      &:last-child {
+        border-top: 1px solid #cbcbcb;
+      }
+    }
+  }
+}

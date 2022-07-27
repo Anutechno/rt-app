@@ -1,0 +1,171 @@
+.ui-call-us-content {
+    h2 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        color: #000000;
+    }
+}
+
+.ui-call-cb {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 1rem;
+
+    >ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        background: #EDF6FF;
+        border-radius: 6px;
+        padding: 1rem;
+        width: 60%;
+
+        li {
+
+            &:first-child {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #0072BC;
+            }
+
+            &:last-child {
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #000000;
+                    margin-bottom: 0;
+                    padding-bottom: 10px;
+                }
+
+                button {
+                    padding: 0;
+                    border: 0;
+                    background: none;
+                    color: #0072BC;
+
+                }
+
+            }
+        }
+    }
+
+    .ui-phone-no label.MuiFormLabel-filled,
+    .ui-phone-no label.Mui-focused {
+        padding-left: 0 !important;
+        transform: translate(18px, -14px);
+    }
+
+    .ui-phone-no label.MuiFormLabel-filled,
+    .ui-phone-no label.Mui-focused {
+        background-color: #fff !important;
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+        transform: translate(14px, 9px) scale(1);
+    }
+
+    .ui-phone-no .PhoneInputCountrySelectArrow {
+        top: 4px;
+    }
+
+    .ui-call-cb .ui-phone-no label.MuiFormLabel-filled {
+        background-color: #fff;
+        padding: 0 4px;
+    }
+
+    .ui-phone-no #phoneNumber {
+        padding-left: 140px !important;
+    }
+
+    >p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #1C1C1C;
+        padding-top: 10px;
+    }
+
+}
+
+.ui-call-us-box {
+    padding: 50px 0;
+}
+
+.ui-cu-change-content {
+    >p {
+        &:first-of-type {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+            padding-bottom: 1rem;
+        }
+
+        &:nth-of-type(2) {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1C1C1C;
+            padding-bottom: 10px;
+        }
+
+        &:nth-of-type(3) {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #6C757D;
+
+            a {
+                color: #0072BC;
+
+            }
+        }
+    }
+
+    >ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 180px 0.7fr;
+        align-items: center;
+        margin-bottom: 14px;
+
+        li {
+            &:first-child {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: #0072BC;
+        border-radius: 6px;
+        width: 300px;
+        height: 40px;
+        border: none;
+        transition: all .3s;
+        margin: 1rem 0;
+
+        &:hover {
+            background-color: #05619e;
+        }
+    }
+}

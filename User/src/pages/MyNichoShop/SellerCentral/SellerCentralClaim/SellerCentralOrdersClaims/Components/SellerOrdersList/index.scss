@@ -1,0 +1,246 @@
+.seller-central-orders-content {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+
+  $red: #eb5454;
+  $blue: #0072bc;
+  $gray: #616161;
+
+  @mixin border {
+    border: 1px solid #cbcbcb;
+  }
+
+  .order-list-sort {
+    padding: 11px 15px;
+
+    span {
+      padding-right: 20px;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 6px;
+
+      .MuiSelect-select {
+        border-radius: 6px;
+        padding: 8px 15px;
+      }
+
+      fieldset {
+        display: none;
+      }
+    }
+  }
+
+  .list-items {
+    .list-item {
+      * {
+        letter-spacing: -0.7px;
+        font-family: "Inter";
+      }
+
+      border: 0;
+      border-top: 1px solid #cbcbcb;
+      border-radius: 0;
+      margin: 0px;
+
+      .title-date {
+        display: inline-block;
+        margin: 0;
+        border-right: 1px solid #cbcbcb;
+        border-bottom: 1px solid #cbcbcb;
+        padding: 10px 20px;
+        border-radius: 0 0 6px 0;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 19px;
+
+        .red {
+          color: $red;
+        }
+      }
+
+      .list-left {
+        padding: 0px;
+        padding-right: 0;
+        min-width: 290px;
+
+        h3 {
+          padding-top: 10px;
+          padding-bottom: 5px;
+          margin: 0;
+          font-size: 1em;
+          font-weight: 600;
+        }
+
+        p {
+          margin: 0;
+          padding-bottom: 10px;
+          line-height: 19px;
+
+          span {
+            color: $blue;
+          }
+
+          &.requirement {
+            padding-bottom: 15px !important;
+          }
+        }
+      }
+
+      .list-right {
+        margin-left: 0px;
+        border-left: 1px solid #cbcbcb;
+
+        .list-reason {
+          padding-left: 20px;
+          border: 0;
+
+          h3 {
+            margin: 0;
+            font-size: 1em;
+            font-weight: 600;
+          }
+
+          .not {
+            color: #9f2b05;
+            font-weight: 500;
+            padding-bottom: 10px;
+          }
+
+          .list-detail {
+            padding-bottom: 20px;
+
+            .image {
+              width: 105px;
+              height: 105px;
+              background-color: #c4c4c4;
+
+              img {
+                width: 105px;
+                height: 105px;
+              }
+            }
+
+            .item-detail {
+              padding-left: 10px;
+
+              .item-title {
+                color: $blue;
+              }
+
+              .item-desc {
+                color: $gray;
+              }
+            }
+          }
+        }
+
+        button {
+          float: none;
+          margin-right: 0px;
+          width: 235px;
+          height: 40px;
+          color: white;
+          background-color: $blue;
+          border-radius: 6px;
+          border: 0;
+          outline: 0;
+        }
+      }
+    }
+    .list-paginate {
+      border: 0;
+      border-top: 1px solid #cbcbcb !important;
+      border-radius: 0px;
+      margin: 0;
+      padding: 12px 30px;
+
+      .page-count {
+        font-size: 1.1em;
+        padding-right: 100px;
+      }
+
+      .pagination {
+        margin: 0;
+
+        * {
+          font-size: 1em !important;
+          font-weight: 800 !important;
+        }
+
+        i {
+          font-size: 0.8em !important;
+          font-weight: 900 !important;
+        }
+
+        li {
+          margin-right: 10px;
+
+          a {
+            color: #6c757d;
+            box-shadow: none;
+          }
+        }
+
+        li.active {
+          background-color: transparent;
+
+          a {
+            background-color: #edf6ff;
+            color: $blue;
+          }
+        }
+
+        .page-link {
+          border: 0;
+          border-radius: 6px;
+          font-weight: 600;
+          font-size: 1.1em;
+          padding: 5px 13px;
+          width: 34px;
+        }
+      }
+
+      .per-page-result {
+        font-size: 1em;
+
+        span {
+          padding-right: 15px;
+        }
+
+        .MuiOutlinedInput-root {
+          border-radius: 6px;
+          background: #edf6ff;
+          font-size: 1.1em;
+          color: $blue;
+          font-weight: 500;
+
+          .MuiSelect-select {
+            border-radius: 6px;
+            border: 0 !important;
+            padding: 8px 15px;
+          }
+
+          fieldset {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .list-items {
+      .list-item {
+        .list-right {
+          margin-left: 0;
+          border: 0;
+
+          .list-reason {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}

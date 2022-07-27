@@ -1,0 +1,68 @@
+.p--20 {
+    padding: 6px !important;
+}
+
+.plus {
+    border-radius: 50%;
+    color: white;
+}
+
+.accordion-button::after {
+    width: 0px !important;
+}
+
+.modal-content div {
+    border: none;
+    padding: 10px;
+}
+
+.active_red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.text-success,
+
+.btn-outline-success {
+    color: #79DC55 !important;
+}
+
+.bg-success , .btn-success{
+    background-color: #79DC55 !important;
+    color: white !important;
+}
+
+.active_grey {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.category-dropdown {
+    position: absolute !important;
+    right: 10px !important;
+    top: 5px !important;
+    z-index: 10 !important;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.alert_window {
+    box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.myModal div {
+    padding-bottom: 30px !important;
+}
+
+#accordionExample .accordion-header {
+    border: 1px solid #D1DEFF;
+}
+
+.accordion-item {
+    border: none !important;
+}

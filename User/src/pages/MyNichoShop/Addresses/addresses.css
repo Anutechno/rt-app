@@ -1,0 +1,164 @@
+.breadcrumb {
+	font-size: 14px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	content: var(--bs-breadcrumb-divider, '>') !important;
+}
+
+.add_address_select {
+	margin-bottom: 10px;
+}
+
+.add_address_input {
+	margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+# CS Form
+--------------------------------------------------------------*/
+
+.has-float-label {
+	position: relative;
+	font-size: 100%;
+}
+
+.has-float-label label {
+	position: absolute;
+	opacity: 1;
+	transition: all .2s;
+	top: -.5em;
+	left: .75rem;
+	z-index: 3;
+	line-height: 1;
+	padding: 0 1px
+}
+
+.has-float-label label::after {
+	content: " ";
+	display: block;
+	position: absolute;
+	background: #fff;
+	height: 2px;
+	top: 50%;
+	left: -.2em;
+	right: -.2em;
+	z-index: -1
+}
+
+input[type=text]:focus {
+	box-shadow: none;
+}
+
+input[type=password]:focus {
+	box-shadow: none;
+}
+
+input[type=select]:focus {
+	box-shadow: none;
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+	opacity: .5;
+	color: #000
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)+label {
+	font-size: 150%;
+	opacity: 0;
+	z-index: -1;
+	top: .6em
+}
+
+
+form.sc\+form {
+	width: 419px;
+}
+
+form.sc\+form .form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: none !important;
+}
+
+.radiio_btn label.radio-inline {
+	position: relative;
+	width: 49%;
+	font-size: 15px;
+	margin-left: -10px;
+}
+
+.radiio_btn input[type="radio"] {
+	margin-right: 5px;
+}
+
+button.btn.btn-Cancel {
+	background: #FFFFFF;
+	border: 1px solid #CBCBCB;
+	box-sizing: border-box;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	padding: 7px 70px;
+}
+
+button.btn.btn-Save {
+	background: #0072BC;
+	border: 1px solid #0072BC;
+	box-sizing: border-box;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	padding: 7px 70px;
+	color: #fff;
+}
+
+h1.top_head {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 43px;
+	color: #000000;
+	padding-top: 60px;
+}
+
+.inner_cs {
+	border-radius: 8px;
+	border: 1px solid #CBCBCB;
+	padding: 30px;
+	margin-bottom: 160px;
+	float: left;
+	width: 100%;
+}
+
+.inner_cs h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.inner_cs hr {
+	margin-bottom: 30px;
+}
+
+button.btn.btn-Save:hover {
+	opacity: .8;
+}
+
+button.btn.btn-Cancel:hover {
+	background: #0072BC;
+	border: 1px solid #0072BC;
+	box-sizing: border-box;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	padding: 7px 70px;
+	color: #fff;
+}
+
+.table> :not(:first-child) {
+	border-top: none;
+}

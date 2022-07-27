@@ -1,0 +1,79 @@
+.color-title1 {
+    color: #0F7FC1;
+    font-weight: 700;
+}
+
+.color-title2 {
+    color: #79DC55;
+    font-weight: 700;
+}
+
+.form-layout-signinpage {
+    border: 1px solid #CBCBCB;
+    min-width: 400px;
+    max-width: 600px;
+    /* box-shadow: 6px 6px 4px rgba(173, 173, 173, 0.25); */
+    border-radius: 8px;
+
+}
+
+.text-signinpage {
+    font-family: 'SF Pro Display';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+.form-layout-signinpage input {
+    color: #616161 !important;
+}
+
+.check-signinpage {
+    vertical-align: center !important;
+    border: 1px solid #CBCBCB;
+    padding: 10px;
+    border-radius: 3px;
+    width: 97% !important;
+}
+
+.button-signinpage {
+    width: 100%;
+    background-color: #0072BC;
+}
+
+.footer-signinpage {
+    bottom: 0px;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #CBCBCB;
+    background-color: #fff;
+}
+
+.recaptcha {
+    float : right;
+}
+
+.error-icon {
+    border: 1px solid red;
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    padding-right:7.5px;
+    padding-left:7.5px;
+}
+.color-red {
+    color: red;
+    font-size: 80%;
+}
+.nortonlogo {
+    position: absolute;
+    bottom: 8px;
+    float: right;
+    right: 40px;
+}

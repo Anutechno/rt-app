@@ -1,0 +1,464 @@
+.ui-today-deals-box {
+    padding: 40px 25px;
+}
+
+.ui-todays-deals-left {
+    h2 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #1C1C1C;
+        padding-bottom: 34px;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1C1C1C;
+        margin-bottom: .8rem;
+    }
+
+    .btn {
+        background: none;
+        border: none;
+        color: #0072BC;
+        padding: 0;
+        transition: all .3s;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:hover {
+            color: #004e83;
+        }
+    }
+}
+
+.ui-price-left {
+    padding-top: 34px;
+}
+
+.ui-price-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    h4 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #1C1C1C;
+        padding-bottom: 34px;
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C1C1C;
+        transition: all .3s;
+
+        &:hover {
+            text-decoration: underline !important;
+            color: #0072BC;
+            font-weight: 600;
+        }
+    }
+}
+
+.ui-td-select {
+    p {
+        white-space: pre;
+    }
+}
+
+.ui-td-lang {
+    button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.ui-todays-deals-content-head {
+    padding: 10px 0;
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C1C1C;
+    }
+}
+
+.ui-td-lang {
+    position: relative;
+}
+
+.ui-td-view-option,
+.ui-td-lang-option {
+    border: 1px solid #ddd;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+
+    button {
+        width: 100%;
+        padding: 4px 12px;
+        border: none;
+        background: none;
+
+        &:hover {
+            background-color: #0072BC;
+            color: #fff;
+        }
+    }
+}
+
+.ui-td-view {
+    position: relative;
+
+    button {
+        display: flex;
+        align-items: center;
+        color: #0072BC;
+
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
+
+.ui-td-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.ui-td-pag-box {
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    padding: 10px 20px;
+}
+
+.ui-td-pag {
+    button {
+        color: #6C757D;
+        background: none;
+        border: none;
+        height: 36px;
+        width: 36px;
+
+
+        &.active {
+            background-color: #EDF6FF;
+            color: #0072BC;
+            font-weight: 600;
+            border-radius: 6px;
+        }
+
+
+        &:hover {
+            color: #0072BC;
+        }
+    }
+}
+
+.ui-td-pag-no {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ui-td-per-page-select {
+    display: flex;
+
+    p {
+        white-space: pre;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C1C1C;
+    }
+
+    .form-select {
+        background-color: #EDF6FF;
+        border-color: #EDF6FF;
+    }
+}
+
+.ui-mobile-sorting {
+    display: none;
+}
+
+.ui-product-card {
+    &:hover {
+        box-shadow: 0px 0px 84px -41px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 84px -41px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 84px -41px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media all and (max-width: 992px) {
+    .ui-td-card {
+        grid-template-columns: repeat(2, 1fr);
+        border: 0 !important;
+        gap: 1rem;
+    }
+
+    .ui-product-card {
+        border: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 1.2rem;
+
+        img {
+            height: 150px !important;
+        }
+
+        p {
+            &:first-of-type {
+                font-size: 13px !important;
+            }
+
+            &:last-of-type {
+                font-size: 11px !important;
+            }
+        }
+
+        h4 {
+            font-size: 18px !important;
+            margin-bottom: 0;
+        }
+
+        a {
+            font-size: 11px !important;
+        }
+    }
+
+    .ui-td-pag-box {
+        border: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+
+        p {
+            order: 3;
+            margin-top: 2rem;
+            color: #6C757D;
+        }
+    }
+
+    .ui-td-per-page-select {
+        display: none !important;
+    }
+
+    .ui-product-list-card {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        img {
+            height: 122px !important;
+        }
+
+        p {
+            &:first-of-type {
+                font-size: 13px !important;
+            }
+
+            &:nth-of-type(2) {
+                font-size: 11px !important;
+            }
+        }
+
+        h4 {
+            font-size: 14px !important;
+            padding: 6px 0 !important;
+        }
+
+        a {
+            font-size: 11px !important;
+        }
+    }
+
+    .ui-mobile-td-header {
+        margin-bottom: 3rem;
+
+        >p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #1C1C1C;
+            padding: 8px 0;
+            border-bottom: 1px solid #CBCBCB;
+        }
+    }
+
+    .ui-mob-td-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #dee2e6;
+        padding: 10px 0;
+
+        >button {
+            font-size: 14px;
+            background: none;
+            padding: 0;
+            border: 0;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: #42484D;
+        }
+    }
+
+    .ui-mob-td-select {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        >button {
+            font-size: 14px;
+            background: none;
+            padding: 0;
+            border: 0;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+
+    .ui-td-select {
+        font-size: 13px;
+    }
+
+    .ui-td-view {
+
+        button {
+            color: #0072BC;
+
+            svg {
+                height: 14px;
+                width: 14px;
+            }
+        }
+    }
+
+    .ui-mob-td-left {
+        position: fixed;
+        inset: 0;
+        z-index: 9;
+        background-color: rgba(0, 0, 0, .4);
+        padding: 0;
+    }
+
+    .ui-mob-cat-td-box {
+        background-color: #fff;
+        width: 80%;
+        padding: 20px 14px;
+        overflow-y: scroll;
+        height: 100%;
+        position: relative;
+    }
+
+    .ui-todays-deals-left {
+        h2 {
+            font-size: 20px;
+            display: none;
+        }
+    }
+
+    .ui-todays-deals-left {
+        h4 {
+            font-size: 14px;
+        }
+    }
+
+    .ui-cat-checkbox {
+        label {
+            font-size: 13px;
+        }
+    }
+
+    .ui-cat-checkbox {
+        input {
+            height: 16px;
+            width: 16px;
+        }
+
+        label {
+            padding-left: 0;
+        }
+    }
+
+    .ui-mob-cross-btn {
+        position: absolute;
+        right: 14px;
+        top: 14px;
+        font-size: 12px;
+        background: none;
+        border: none;
+        color: #6C757D;
+    }
+
+    .ui-mobile-sorting {
+        position: fixed;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .4);
+        inset: 0;
+        z-index: 99;
+    }
+
+    .ui-mobile-sorting-content {
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-radius: 6px 6px 0 0;
+        // padding: 15px;
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+
+            li {
+                font-size: 13px;
+                font-weight: 400;
+                color: #42484D;
+                padding: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #EDF6FF;
+                    color: #0072BC;
+                }
+            }
+        }
+    }
+
+    .ui-mob-sorting-top {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #CBCBCB;
+        padding: 15px;
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1C1C1C;
+        }
+
+        button {
+            background: none;
+            border: none;
+            font-size: 14px;
+            color: #1C1C1C;
+        }
+    }
+
+    .ui-mobile-sorting {
+        display: block;
+    }
+
+    .ui-product-card {
+        &:hover {
+            box-shadow: unset;
+        }
+    }
+}

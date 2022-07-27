@@ -1,0 +1,248 @@
+.ui-contact-buyer-box {
+    padding: 50px 0;
+}
+
+.ui-cb-content-head {
+    padding-bottom: 1.4rem;
+
+    p {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #1C1C1C;
+    }
+}
+
+.ui-cb-content-body {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+}
+
+.ui-cb-cb-left-product {
+    display: flex;
+    gap: 10px;
+
+    img {
+        height: 128px;
+        width: 128px;
+        object-fit: contain;
+    }
+}
+
+.ui-cb-cb-lp-info {
+    h4 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #1C1C1C;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1C1C1C;
+        padding: 4px 0;
+
+        span {
+            color: #6C757D;
+            padding-right: 8px;
+        }
+    }
+}
+
+.ui-cb-cb-add-file {
+    border-bottom: 1px dashed #CBCBCB;
+
+    input {
+        display: none;
+    }
+}
+
+.ui-outline-btn {
+    height: 40px;
+    padding: 0 1.8rem;
+    border: 1px solid #0072BC;
+    color: #0072BC;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all .3s;
+
+    &:hover {
+        background-color: #0072BC;
+        color: #fff;
+    }
+}
+
+.ui-cb-cb-msg {
+    width: 510px;
+    padding-top: 1.4rem;
+}
+
+.ui-cb-cb-msg {
+    p {
+        &:first-of-type {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            padding-bottom: 10px;
+        }
+
+        &:last-of-type {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #616161;
+            text-align: right;
+            padding-top: 6px;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        height: 80px;
+        border: 1px solid #CBCBCB;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+
+        &:focus {
+            box-shadow: none;
+            outline: none !important;
+        }
+    }
+
+    label {
+        color: #CBCBCB;
+        padding: 10px !important;
+    }
+}
+
+.ui-cb-cb-add-file {
+    >p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1C1C1C;
+        padding: 12px 0;
+        display: block;
+    }
+}
+
+.ui-cd-cd-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.4rem;
+
+    button {
+        height: 40px;
+        padding: 0 1.4rem;
+        background: none;
+        border: 0;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        &:first-of-type {
+            background-color: #0072BC;
+            color: #fff;
+
+            &:hover {
+                background-color: #015f9e;
+            }
+        }
+
+        &:last-of-type {
+            border: 1px solid #0072BC;
+            color: #0072BC;
+
+            &:hover {
+                background-color: #015f9e;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.ui-cb-cb-right {
+    padding: 0 2rem;
+}
+
+.ui-cb-cb-left {
+    border-right: 1px solid #CBCBCB;
+    padding-right: 2rem;
+
+}
+
+.ui-cb-cb-right-info {
+
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #1C1C1C;
+        padding-bottom: 1rem;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+
+        li {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            padding: 4px 0;
+
+            &:first-child {
+                color: #6C757D;
+                width: 200px;
+            }
+        }
+    }
+}
+
+.ui-cd-cd-upload-file-info {
+    padding-bottom: 1rem;
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0;
+        padding-left: 0;
+
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1C1C1C;
+            padding-bottom: 8px;
+
+            span {
+                color: #6C757D;
+            }
+        }
+    }
+
+    button {
+        background: none;
+        padding: 0;
+        border: 0;
+        color: #000;
+        margin-left: 7px;
+
+        &:hover {
+            color: rgb(247, 41, 41);
+        }
+    }
+}

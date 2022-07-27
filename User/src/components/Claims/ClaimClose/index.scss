@@ -1,0 +1,17 @@
+.claim-close {
+  padding: 20px 30px;
+  border-bottom: 1px solid #cbcbcb;
+
+  p {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 21px;
+    text-align: right;
+    color: #6c757d;
+
+    span {
+      color: #0072bc;
+      cursor: pointer;
+    }
+  }
+}

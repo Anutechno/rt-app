@@ -1,0 +1,153 @@
+.product {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.product-discount {
+  display: flex;
+}
+
+.product-recent {
+  max-height: 295px;
+}
+
+.product-today {
+  max-height: 315px;
+}
+
+.product-img {
+  width: 244px;
+  height: 244px;
+  background-color: var(--light-gray);
+}
+
+.product-price {
+  margin-top: 27px;
+}
+
+.product-price-p {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1800px) {
+  .product {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .product-recent {
+    max-height: 295px;
+  }
+
+  .product-today {
+    max-height: 315px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .product {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .product-recent {
+    max-height: 225px;
+  }
+
+  .product-today {
+    max-height: 242px;
+  }
+
+  .product-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .product-price {
+    margin-top: 20px;
+  }
+
+  .product-price-p {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .product {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .product-recent {
+    max-height: 225px;
+  }
+
+  .product-today {
+    max-height: 242px;
+  }
+
+  .product-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .product {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .product-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .product {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .product-price {
+    margin-top: 10px;
+  }
+
+  .product-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .product-discount {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .product-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .product {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .product-img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .product-img {
+    width: 75px;
+    height: 75px;
+  }
+}

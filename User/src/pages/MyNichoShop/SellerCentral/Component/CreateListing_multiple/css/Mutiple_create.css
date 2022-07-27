@@ -1,0 +1,13 @@
+.Mutiple-header {
+    padding: 20px;
+}
+
+.multiple-input-group {
+    min-width: 100% !important;
+}
+
+.footer {
+    position: absolute;
+    bottom:  0px;
+    padding: 20px;
+}

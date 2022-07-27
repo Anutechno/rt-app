@@ -1,0 +1,65 @@
+/* The following block can be included in a custom.scss */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* scss-docs-start color-variables */
+$blue: #0072bc !default;
+$lblue: #edf6ff !default;
+$green: #2aac27 !default;
+$red: #eb5454 !default;
+
+/* scss-docs-start font-variables
+/ stylelint-disable value-keyword-case */
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace: "Inter", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$font-weight-semibold: 600;
+$font-weight-medium: 500;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+.MuiBreadcrumbs-root {
+    margin: 30px 0;
+}
+
+.font-weight-semibold {
+    font-weight: $font-weight-semibold;
+}
+
+.font-weight-medium {
+    font-weight: $font-weight-medium;
+}
+.pagination-wrapper {
+    ul {
+        margin: 0;
+        li {
+            margin: 0 5px;
+            a {
+                border-radius: $border-radius;
+                color: $gray-600;
+                font-weight: $font-weight-semibold;
+                width: 34px;
+                height: 34px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+            }
+            &.active {
+                a {
+                    background: $lblue;
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
+.dropdown-blue {
+    background: $lblue;
+    color: $blue;
+    border-radius: $border-radius;
+    font-weight: $font-weight-semibold;
+    height: 34px;
+    line-height: 34px;
+}

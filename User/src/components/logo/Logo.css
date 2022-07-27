@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 176px;
+}
+
+@media screen and (max-width: 1366px) {
+  .logo img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .logo img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo img {
+    max-width: 100px;
+  }
+}

@@ -1,0 +1,10 @@
+.currency-selector {
+  width: 265px;
+  height: 41px;
+}
+
+@media screen and (max-width: 1366px) {
+  .currency-selector .form-select {
+    font-size: 15px !important;
+  }
+}

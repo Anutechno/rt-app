@@ -1,0 +1,118 @@
+.ui-cuc-box {
+    width: 682px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 20px;
+
+    p {
+        &:first-of-type {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            color: #000000;
+        }
+
+        &:last-of-type {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+    .form-select {
+        margin-top: 10px;
+        height: 40px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.ui-cuc-btn-select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 0;
+
+    .btn {
+        height: 40px;
+        padding: 0 1rem;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0072BC;
+        box-shadow: 0px 0px 20px rgba(60, 65, 115, 0.15);
+
+        &.selected {
+            border-color: #0072BC;
+        }
+
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.ui-contact-us {
+    padding: 50px 0;
+}
+
+.ui-contact-us-content {
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 43px;
+        color: #000000;
+        margin-bottom: 1rem;
+    }
+}
+
+.ui-cu-help-option {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 1.4rem;
+
+    >p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+        padding-bottom: 1.4rem;
+    }
+}
+
+.ui-cu-help-option-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    >div {
+        text-align: center;
+
+        svg {
+            height: 41px;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            color: #0072BC;
+            margin-bottom: 0;
+            padding: 10px 0;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 0;
+        }
+    }
+}

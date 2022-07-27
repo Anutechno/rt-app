@@ -1,0 +1,22 @@
+.icon {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.icon-selected {
+    background: #FAFFF9;
+    border-bottom: 3px solid #6AD940;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.Navbar {
+    background: #FFFFFF;
+    /* shadow in header */
+    height: 100px;
+    border-bottom: 1px solid #CBCBCB;
+    /* box-shadow: 0px 4px 13px rgba(172, 172, 172, 0.17); */
+}

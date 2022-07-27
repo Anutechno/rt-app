@@ -1,0 +1,96 @@
+{
+  "name": "nickshop",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://haidarhossain.tk/",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^34.1.0",
+    "@ckeditor/ckeditor5-react": "^5.0.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/lab": "^5.0.0-alpha.89",
+    "@mui/material": "^5.8.1",
+    "@popperjs/core": "^2.11.0",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@tomik23/react-circular-progress-bar": "^1.1.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "filesize": "^9.0.11",
+    "formik": "^2.2.9",
+    "js-image-zoom": "^0.7.0",
+    "material-ui-phone-number": "^3.0.0",
+    "mui-phone-number": "^2.2.9",
+    "node-modules": "^1.0.1",
+    "react": "^18.1.0",
+    "react-apple-login": "^1.1.3",
+    "react-bootstrap": "^2.0.3",
+    "react-bootstrap-select": "^0.14.0",
+    "react-carousel-minimal": "^1.4.1",
+    "react-dom": "^18.1.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.31.3",
+    "react-icons": "^4.3.1",
+    "react-image-magnify": "^2.7.4",
+    "react-img-zoom": "^0.1.0",
+    "react-js-pagination": "^3.0.3",
+    "react-outside-click-handler": "^1.3.0",
+    "react-paginate": "^8.1.3",
+    "react-password-strength-bar": "^0.4.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.2.3",
+    "react-phone-number-input-plus": "^1.0.1",
+    "react-random-image": "^1.0.3",
+    "react-rating-stars-component": "^2.2.0",
+    "react-recaptcha": "^2.3.10",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "react-slick": "^0.29.0",
+    "sass": "^1.52.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "toastify-js": "^1.11.2",
+    "web-vitals": "^1.1.2",
+    "yarn": "^1.22.18",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "uuid": "^8.3.2"
+  }
+}

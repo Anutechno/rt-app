@@ -1,0 +1,8 @@
+.formstyle1 {
+    border: 1px solid #CBCBCB;
+    min-width: 400px;
+    padding: 25px;
+    max-width: 700px;
+    box-shadow: 6px 6px 4px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+}

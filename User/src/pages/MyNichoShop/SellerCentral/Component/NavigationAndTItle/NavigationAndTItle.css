@@ -1,0 +1,20 @@
+.overview-url {
+  padding: 0px;
+  gap: 6px;
+  /* margin: 0px 0px !important; */
+  max-width: 90% !important;
+  margin: 20px auto;
+}
+.overview-url h6 {
+  color: #0072bc;
+}
+.for_symbol {
+  color: #000;
+  font-size: 12px;
+}
+.for_text {
+  color: #6c757d;
+}
+.overview-title {
+  margin-top: 40px;
+}

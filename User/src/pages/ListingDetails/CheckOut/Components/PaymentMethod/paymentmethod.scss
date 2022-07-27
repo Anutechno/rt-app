@@ -1,0 +1,208 @@
+.ui-payment-method-add-box {
+    width: 100%;
+}
+
+.ui-pm-db-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ui-pm-add-card {
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(14px, -10px) scale(0.75) !important;
+        background: #fff;
+        padding: 0 4px;
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+        transform: translate(14px, 10px) scale(1);
+    }
+}
+
+.ui-pm-db-head {
+    h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #1C1C1C;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #6C757D;
+    }
+}
+
+.ui-pm-db-img {
+    padding-top: 10px;
+}
+
+.ui-pm-add-card {
+    h4 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        padding: 14px 0;
+    }
+
+    form {
+        .MuiOutlinedInput-notchedOutline {
+            border-color: #CBCBCB;
+            border-radius: 6px;
+        }
+    }
+}
+
+.ui-pm-add-checkbox {
+    .form-check {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .form-check-input {
+        height: 18px;
+        width: 18px;
+        border-radius: 4px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .form-check-label {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #1C1C1C;
+        transform: translateY(1px);
+
+    }
+}
+
+.ui-pm-billing-address {
+    h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: #1C1C1C;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        li {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1C1C1C;
+        }
+    }
+
+    button {
+        background: none;
+        padding: 0;
+        border: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: #0072BC;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin: 1rem 0;
+    }
+}
+
+.ui-pm-billing-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+        width: 100%;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        height: 40px;
+
+        &:first-of-type {
+            background-color: #0072BC;
+        }
+
+        &:last-of-type {
+            border: 1px solid #0072BC;
+            color: #0072BC;
+        }
+    }
+}
+
+.ui-pm-card-alert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.4rem;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #1C1C1C;
+    }
+}
+
+.ui-pm-bd-select {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px dashed #CBCBCB;
+    padding: 1rem 0;
+
+    input {
+        height: 20px;
+        width: 20px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        li {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 135%;
+            color: #42484D;
+        }
+    }
+}
+
+.ui-pm-billing-form {
+
+    .css-1s2u09g-control,
+    .css-b62m3t-container {
+        height: 44.97px !important;
+    }
+
+    .MuiFormControl-fullWidth {
+        z-index: 0;
+    }
+}

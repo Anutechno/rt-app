@@ -1,0 +1,193 @@
+iframe {
+  display: none;
+}
+.purchase-claim-list {
+  position: relative;
+  font-size: 100%;
+  * {
+    font-family: "Inter";
+  }
+
+  .breadcrumbs {
+    margin: 30px 121px;
+
+    * {
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 19px;
+    }
+  }
+
+  .list-content {
+    margin: 0 7vw;
+
+    h1 {
+      margin-top: 11px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 2.5em;
+      line-height: 43px;
+    }
+
+    .list-search {
+      border: 1px solid #cbcbcb;
+      border-radius: 6px;
+      padding: 0 20px;
+      margin-bottom: 30px;
+
+      ul {
+        margin: 0;
+        padding-left: 0;
+        display: flex;
+        border-bottom: 1px solid #cbcbcb;
+
+        li {
+          list-style-type: none;
+          padding: 20px 0;
+          margin-right: 60px;
+          cursor: pointer;
+          font-size: 1.2em;
+          font-weight: 500;
+          line-height: 21px;
+
+          &.active1 {
+            border-bottom: 2px solid #2aac27;
+          }
+        }
+      }
+
+      .search-category {
+        width: 100%;
+        padding-top: 20px;
+        display: inline-block;
+
+        .MuiOutlinedInput-root {
+          border-radius: 6px;
+
+          .MuiSelect-select {
+            border-radius: 6px;
+            padding: 8px 15px;
+          }
+
+          fieldset {
+            display: none;
+          }
+        }
+
+        .category1 {
+          padding-bottom: 20px;
+          padding-right: 40px;
+          float: left;
+        }
+
+        .category2 {
+          padding-bottom: 20px;
+          float: left;
+
+          .MuiOutlinedInput-root {
+            border-radius: 6px 0 0 6px !important;
+
+            .MuiSelect-select {
+              border-radius: 6px 0 0 6px !important;
+            }
+          }
+
+          input[type="text"] {
+            padding: 0 15px;
+            border: 1px solid #cbcbcb;
+            border-left: 0;
+            width: 297px;
+            outline: 0;
+          }
+
+          i {
+            width: 18px;
+            height: 18px;
+            color: #0072bc;
+          }
+
+          label {
+            border: 1px solid #cbcbcb;
+            border-left: 0;
+            border-radius: 0 6px 6px 0;
+            padding: 6px 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+          }
+
+          .reset {
+            color: #0072bc;
+            padding-left: 15px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+          }
+        }
+
+        .duration {
+          padding-bottom: 20px;
+        }
+      }
+
+      .result {
+        margin: 0;
+        padding: 0;
+        font-size: 1.1em;
+        padding-bottom: 21px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.Mui-selected {
+  color: #0072bc !important;
+  background-color: #edf6ff !important;
+}
+
+@media only screen and (max-width: 860px) {
+  .purchase-claim-list {
+    font-size: 80%;
+
+    .list-content {
+      li {
+        margin-right: 20px !important;
+      }
+    }
+
+    .css-743adk-MuiFormControl-root {
+      min-width: 280px !important;
+    }
+
+    .category2 {
+      display: none !important;
+    }
+
+    .list-paginate {
+      justify-content: center !important;
+
+      .page-count {
+        display: none;
+      }
+
+      .per-page-result {
+        display: none !important;
+      }
+
+      li {
+        margin-right: 4px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .search-category {
+    display: block;
+
+    .resp {
+      display: block !important;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  flex-wrap: unset !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.tab_holder {
+  width: 100% !important;
+}
+
+.second_comp {
+  border: 1px solid #cbcbcb;
+  padding: 20px;
+  margin-top: 20px;
+}
+.subcomp_one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cbcbcb;
+  padding: 20px;
+}

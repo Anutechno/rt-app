@@ -1,0 +1,109 @@
+body {
+  background-color: white;
+}
+
+.purchase-claim-open {
+  * {
+    font-family: "Inter";
+  }
+
+  .claim-open {
+    padding: 0 7vw;
+    padding-bottom: 90px;
+
+    h2 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #1c1c1c;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      margin: 0;
+    }
+
+    .claim-open-content {
+      border: 1px solid #cbcbcb;
+      border-radius: 6px;
+
+      .claim-open-detail {
+        padding: 0 30px;
+
+        .item-infor {
+          padding: 20px 0;
+          position: relative;
+        }
+        .line {
+          border-top: 1px dashed #cbcbcb;
+          background-color: transparent;
+          width: 75%;
+        }
+
+        .item-content {
+          padding: 20px 0;
+
+          .item-image {
+            width: 120px;
+            height: 120px;
+            margin-right: 16px;
+            background-color: #6c757d;
+
+            img {
+              width: 120px;
+              height: 120px;
+            }
+          }
+
+          .item-desc {
+            .item-brief {
+              color: #0072bc;
+            }
+
+            p {
+              color: #6c757d;
+              margin-bottom: 5px;
+
+              span {
+                font-weight: 500;
+                color: black;
+              }
+            }
+          }
+        }
+
+        .item-history {
+          .item-history-list {
+            padding: 20px 0;
+            border-top: 1px solid #cbcbcb;
+
+            .item-history-date {
+              min-width: 136px;
+            }
+
+            .item-history-detail {
+              p {
+                color: #6c757d;
+                padding-bottom: 6px;
+
+                &:first-child {
+                  font-weight: 500;
+                  font-size: 16px;
+                  color: #1c1c1c !important;
+                }
+
+                span {
+                  color: #1c1c1c !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .claim-buttons {
+      width: 100% !important;
+    }
+  }
+}

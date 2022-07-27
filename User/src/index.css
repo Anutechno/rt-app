@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-bottom: 0 !important;
+}
+
+
+ul,
+ol {
+  padding-left: 0 !important;
+  list-style-type: none;
+}
+
+.form-check-input:focus,
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+}
+
+
+:root {
+  --accent-color-1: #0072bc;
+  --accent-color-2: #005a96;
+
+  --text-color-1: #0e1011;
+  --text-color-2: #16191b;
+  --text-color-3: #1c1c1c;
+
+  --light-color-1: #e9ecef;
+  --light-color-2: #d7dadf;
+  --light-color-3: #7c8791;
+
+  --red-color: #eb5454;
+  --green-color: #2aac27;
+  --background-color: #f8f9fa;
+
+  --gray: #4b4b4b;
+  --light-gray: #cbcbcb;
+  --light-gray-2: #f0f0f0;
+  --gray-text: #616161;
+  --gray-text-1: #6c757d;
+
+  --button-text-color: var(--background-color);
+
+  --transition-delay: 0.125s;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400;
+  background-color: var(--background-color);
+}
+
+.container-ns {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 450px) {
+  .container-ns {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small-text18 {
+  font-size: 18px;
+}
+
+.small-text {
+  font-size: 16px;
+}
+
+.smaller-text {
+  font-size: 14px;
+}
+
+.small-title {
+  font-size: 26px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-smaller-text {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 33px;
+}
+
+.transparent-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.transparent-btn:hover,
+.transparent-btn:active,
+.transparent-btn:focus {
+  background-color: transparent !important;
+}
+
+.custom-button {
+  /* Reset btn style */
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  /* Custom btn style */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.2px solid #6c757d;
+  color: var(--gray);
+  border-radius: 2px;
+}
+
+.custom-button:hover {
+  /* Reset btn style */
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  /* Custom btn style */
+  border: 1.2px solid #6c757d;
+  background-color: var(--light-gray-2);
+}
+
+.custom-button:active {
+  /* Reset btn style */
+  outline: none;
+  border: none;
+  /* Custom btn style */
+  border: 1.2px solid #6c757d;
+  background-color: var(--light-gray-2);
+}
+
+.custom-button:focus {
+  /* Reset btn style */
+  outline: 0;
+  /* Custom btn style */
+  border: 1.2px solid #6c757d;
+  background-color: var(--light-gray-2);
+}
+
+.selector {
+  box-shadow: none !important;
+}
+
+.selector:focus {
+  border: 1px solid var(--light-gray) !important;
+}
+.MuiMenu-paper .MuiMenuItem-root:hover {
+  background-color: #edf6ff;
+}
+.MuiMenu-paper .MuiMenuItem-root.Mui-selected {
+  color: var(--accent-color-1) !important;
+  background-color: #edf6ff !important;
+  font-weight: 500 !important;
+}
+.MuiBackdrop-root{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+@media screen and (max-width: 1366px) {
+  .small-text {
+    font-size: 14px;
+  }
+
+  .small-title {
+    font-size: 22px;
+  }
+
+  .smaller-text {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .card-title {
+    font-size: 23px;
+  }
+
+  .card-smaller-text {
+    font-size: 12px;
+  }
+}
+.container-ns {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media screen and (max-width: 1200px) {
+  .container-ns {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .small-text {
+    font-size: 14px;
+  }
+
+  .small-title {
+    font-size: 22px;
+  }
+
+  .smaller-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-title {
+    font-size: 18px;
+  }
+}

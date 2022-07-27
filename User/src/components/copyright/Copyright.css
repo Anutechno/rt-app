@@ -1,0 +1,17 @@
+.copyright span a:hover {
+  color: var(--accent-color-2);
+}
+
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--gray-text);
+}
+.copyright p {
+  font-weight: 500;
+}
+.copyright span a {
+  color: var(--accent-color-1);
+  font-weight: 600;
+}

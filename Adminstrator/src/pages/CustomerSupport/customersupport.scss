@@ -1,0 +1,106 @@
+.ui-customer-head {
+    h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 43px;
+        color: #000000;
+        padding-bottom: 10px;
+    }
+}
+
+.ui-customer-support-box {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 2.4rem;
+
+    p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        border-bottom: 1px solid #CBCBCB;
+        padding-bottom: 1.3rem;
+    }
+}
+
+.ui-cs-form {
+    width: 414px;
+
+    .form-select,
+    .form-control {
+        height: 38px !important;
+        width: 100% !important;
+        border-radius: 6px !important;
+
+
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+
+    .react-tel-input .selected-flag:hover,
+    .react-tel-input .selected-flag:focus,
+    .react-tel-input .flag-dropdown.open .selected-flag,
+    .flag-dropdown {
+        border-radius: 6px 0 0 6px !important;
+        background: none !important;
+    }
+
+    .react-tel-input .flag-dropdown {
+        border-right: 0;
+    }
+
+    .react-tel-input .selected-flag .arrow {
+        left: 24px;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+        background: none;
+    }
+
+    .css-tlfecz-indicatorContainer {
+        svg {
+            path {
+                fill: #212529;
+            }
+        }
+    }
+}
+
+.ui-cs-form-btn {
+    display: flex;
+    align-items: center;
+
+    .btn {
+        width: 100%;
+        border-radius: 6px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:first-of-type {
+            border: 1px solid #CBCBCB;
+        }
+
+        &:last-of-type {
+            background-color: #0072BC;
+            color: #fff;
+        }
+    }
+}
+
+.ui-cs-time {
+    .form-select {
+        font-size: 14px;
+        width: 100px !important;
+    }
+
+    .form-control {
+        font-size: 14px;
+
+        &:first-of-type {
+            width: 130px !important;
+        }
+    }
+}

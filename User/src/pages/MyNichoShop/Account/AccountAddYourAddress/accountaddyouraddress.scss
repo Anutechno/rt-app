@@ -1,0 +1,76 @@
+.ui-commont-form-box {
+
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 2rem;
+
+    p {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #CBCBCB;
+    }
+
+
+    form {
+        margin-top: 2rem;
+    }
+
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        border: none;
+    }
+}
+
+
+.ui-common-logo {
+    text-align: center;
+    padding-bottom: 3rem;
+
+    svg {
+        width: 180px;
+    }
+}
+
+.ui-add-your-address-box {
+    padding: 20px 50px;
+}
+
+
+.ui-commont-form-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        border: none;
+        background: none;
+        width: 100%;
+        border-radius: 6px;
+        transition: all .3s;
+
+
+        &:first-of-type {
+            background-color: #0072BC;
+            color: #FFFFFF;
+
+            &:hover {
+                background-color: #025a94;
+            }
+        }
+
+        &:last-of-type {
+            color: #0072BC;
+            border: 1px solid #0072BC;
+
+            &:hover {
+                border-color: #0072BC;
+            }
+        }
+    }
+}

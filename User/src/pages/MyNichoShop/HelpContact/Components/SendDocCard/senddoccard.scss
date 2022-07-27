@@ -1,0 +1,26 @@
+.ui-send-doc-img {
+    height: 130px;
+    width: 130px;
+    background-color: gray;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.ui-send-doc-card p:first-of-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #1C1C1C;
+}
+
+.ui-send-doc-card p:last-of-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #6C757D;
+
+}

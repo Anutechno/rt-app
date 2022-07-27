@@ -1,0 +1,578 @@
+.ui-form-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1C1C1C;
+    }
+}
+
+.ui-form-box {
+    position: relative;
+    padding: 0 0 120px 0;
+}
+
+.ui-form-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-top: 1.6rem;
+}
+
+.ui-form-content {
+    border: 1px solid #CBCBCB;
+    padding: 30px;
+    width: 540px;
+    margin: 0 auto;
+
+    h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1C1C1C;
+        text-align: center;
+        padding-bottom: 16px;
+        margin-bottom: 0;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 1.4rem;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+        font-weight: 400;
+        color: #616161;
+    }
+}
+
+.ui-form-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+
+    .form-check {
+        display: flex;
+        align-items: center;
+
+        input {
+            height: 22px;
+            width: 22px;
+        }
+
+        label {
+            padding-left: 10px;
+        }
+    }
+}
+
+.ui-form-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+        height: 1px;
+        width: 100%;
+        background-color: #616161;
+    }
+}
+
+.ui-form-social-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    button {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #1C1C1C;
+        background: none;
+        border: 1px solid #CBCBCB;
+        border-radius: 6px;
+        position: relative;
+
+        img {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+
+
+.ui-form-pwd-notify {
+    li {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6C757D;
+    }
+}
+
+.ul-pwd-mark-circle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    span {
+        display: block;
+        height: 10px;
+        width: 10px;
+        background-color: #9AA7B3;
+        border-radius: 50%;
+
+        &.low {
+            background-color: #FF6666;
+            ;
+        }
+
+        &.medium {
+            background-color: #F7A428;
+            ;
+        }
+
+        &.strong {
+            background-color: #2AAC27;
+            ;
+        }
+    }
+}
+
+.ui-pwd-strength {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+
+
+.ui-country-code {
+    width: 88px;
+    position: absolute;
+    left: 10px;
+}
+
+.ui-phone-no .PhoneInputCountrySelectArrow {
+    width: 10px !important;
+    height: 10px !important;
+    position: absolute;
+    right: -80px;
+    top: 8px;
+}
+
+.ui-phone-no .css-19qh8xo-MuiInputBase-input-MuiOutlinedInput-input {
+    margin-left: 132px !important;
+}
+
+.ui-phone-no #phoneNumber {
+    padding-left: 0 !important;
+}
+
+
+.ui-phone-no label {
+    padding-left: 125px !important;
+}
+
+.ui-phone-no label.MuiFormLabel-filled,
+.ui-phone-no label.Mui-focused {
+    padding-left: 0 !important;
+}
+
+.ui-phone-no label.Mui-focused {
+    padding-left: 130px !important;
+}
+
+
+.ui-phone-no .PhoneInput input {
+    border: none;
+    width: auto;
+}
+
+.ui-phone-no .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    padding-left: 0 !important;
+}
+
+.ui-form-lable-error {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF6666;
+}
+
+// sign in page
+
+.ui-form-signin-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui-stay-signin-link {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 8px;
+
+    a {
+        color: #0072BC;
+        font-weight: 500;
+    }
+}
+
+.ui-stay-signin {
+    input {
+        height: 20px;
+        width: 20px;
+    }
+
+    label {
+        vertical-align: middle;
+        padding-left: 6px;
+        font-weight: 500;
+        color: #1C1C1C;
+    }
+}
+
+// welcome page
+
+.ui-welcome-form-info {
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C1C1C;
+        padding: 4px 0;
+    }
+}
+
+// add mobile no
+.ui-add-mob-not-now {
+    background: none;
+    border: none;
+    padding: 0;
+    fallback: 16px;
+    font-weight: 600;
+    color: #0072BC;
+}
+
+.ui-add-mob-info {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C1C1C !important;
+}
+
+// single user code page
+
+.ui-single-code-info {
+    h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1C1C1C;
+        padding-bottom: 20px;
+
+        &:last-of-type {
+            padding-top: 40px;
+        }
+    }
+}
+
+.ui-single-code-box {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.ui-single-code-info {
+    >p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #6C757D;
+
+        a {
+            font-weight: 600;
+        }
+
+        &:last-of-type {
+            font-size: 14px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.ui-scb-right {
+    p {
+        &:first-of-type {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+            color: #0072BC;
+            padding-bottom: 10px;
+        }
+
+        &:last-of-type {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #6C757D;
+        }
+    }
+}
+
+// verify you page
+.ui-vy-button {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+
+    button {
+        text-transform: capitalize;
+
+        &:first-of-type {
+            background: #0072BC;
+        }
+
+        &:last-of-type {
+            border-color: #0072BC;
+        }
+    }
+}
+
+.ui-vy-footer-link {
+    text-align: start !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000 !important;
+}
+
+.ui-vpm-footer {
+    padding: 0 !important;
+    text-align: start !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000 !important;
+}
+
+// popup
+.ui-error-popup {
+    max-width: 300px !important;
+}
+
+// join verify page
+.ui-join-box {
+    border: 1px solid #CBCBCB;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.ui-join-head {
+    border-bottom: 1px solid #CBCBCB;
+    padding-bottom: 20px;
+
+    h4 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        color: #1C1C1C;
+        margin-bottom: 0;
+    }
+}
+
+.ui-join-content {
+    >p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #616161;
+        padding: 12px 0;
+
+        b {
+            color: #1C1C1C;
+        }
+    }
+}
+
+.ui-join-mail-box {
+    position: relative;
+
+    >div {
+        display: inline-block;
+    }
+
+    button {
+        padding: 0;
+        border: 0;
+        background: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #0072BC;
+    }
+}
+
+.ui-join-mail-info {
+    position: absolute;
+    background-color: #fff;
+    top: 47px;
+    left: -42px;
+    z-index: 99;
+    padding: 20px 20px 20px 42px;
+    width: 304px;
+
+    box-shadow: 0px 0px 87px -42px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 87px -42px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 87px -42px rgba(0, 0, 0, 0.75);
+    border-radius: 6px;
+
+    &::after {
+        content: '';
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid #fff;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+
+        li {
+            padding: 6px 0;
+        }
+
+        button {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0072BC;
+        }
+    }
+}
+
+
+/**
+max 576px 
+**/
+
+
+@media all and (max-width: 576px) {
+    .ui-form-content {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    .ui-form-content {
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+    .ui-form-option {
+        justify-content: flex-start;
+    }
+
+    .ui-form-option {
+        .form-check {
+            display: flex;
+
+            input {
+                height: 16px;
+                width: 16px;
+            }
+
+            label {
+                font-size: 12px;
+                padding-left: 4px;
+                white-space: pre;
+            }
+        }
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1400px) {
+    .ui-form-social-btn {
+        button {
+            font-size: 14px;
+        }
+    }
+
+    .ui-form-logo {
+        padding-bottom: 3rem;
+    }
+
+    .ui-form-logo {
+        svg {
+            width: 180px;
+        }
+    }
+
+    .ui-form-content {
+        width: 500px;
+
+        p {
+            font-size: 14px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        form {
+            .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+                font-size: 14px !important;
+            }
+
+            .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+                padding: 5px 10px !important;
+            }
+        }
+    }
+
+
+    .ui-form-option {
+        .form-check {
+            display: flex;
+            align-items: center;
+
+            label {
+                font-size: 14px;
+            }
+
+            input {
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+
+    .ui-form-link {
+        p {
+            font-size: 14px;
+        }
+    }
+}

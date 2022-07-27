@@ -1,0 +1,9 @@
+.MuiTreeView-root .MuiListItem-root{
+    padding: 0;
+}
+.MuiTreeView-root .MuiListItemText-root{
+    margin: 0;
+}
+.MuiTreeView-root .MuiListItemText-root span{
+    background: none;
+}

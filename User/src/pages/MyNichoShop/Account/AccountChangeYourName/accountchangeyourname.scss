@@ -1,0 +1,53 @@
+.ui-cyn-log {
+    text-align: center;
+    padding-bottom: 60px;
+
+    svg {
+        width: 200px;
+    }
+}
+
+.ui-cyn-form {
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 2rem;
+
+    input {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #1C1C1C;
+        border-bottom: 1px solid #CBCBCB;
+        padding-bottom: 2rem;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #1C1C1C;
+
+        &:first-of-type {
+            padding-top: 1rem;
+        }
+
+        &:last-of-type {
+            padding-bottom: 1rem;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        text-transform: capitalize;
+    }
+}
+
+.ui-cyn-box {
+    padding: 50px 0;
+}

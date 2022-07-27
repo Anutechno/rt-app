@@ -1,0 +1,23 @@
+.NewMessage {
+    background: #FFFFFF;
+    /* gray/border */
+
+    border: 1px solid #CBCBCB;
+    /* main sh */
+
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+}
+
+.NewMessage .Title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #000000;
+}

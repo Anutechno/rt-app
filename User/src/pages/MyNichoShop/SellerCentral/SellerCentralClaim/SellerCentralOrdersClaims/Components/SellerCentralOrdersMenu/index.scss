@@ -1,0 +1,117 @@
+.seller-central-orders-menu {
+  padding: 0 20px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  margin-bottom: 30px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-bottom: 1px solid #cbcbcb;
+
+    li {
+      list-style-type: none;
+      padding: 20px 0px;
+      margin-right: 60px;
+      font-size: 1.1em;
+      font-weight: 500;
+      cursor: pointer;
+
+      span {
+        color: #9f2b05;
+        padding-right: 5px;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+
+      &.seller-menu-active {
+        border-bottom: 2px solid #9f2b05;
+      }
+    }
+  }
+
+  .search-category {
+    width: 100%;
+    padding-top: 20px;
+    display: inline-block;
+
+    .MuiOutlinedInput-root {
+      border-radius: 6px;
+
+      .MuiSelect-select {
+        border-radius: 6px;
+        padding: 8px 15px;
+      }
+
+      fieldset {
+        display: none;
+      }
+    }
+
+    .category1 {
+      padding-bottom: 20px;
+      padding-right: 40px;
+      float: left;
+    }
+
+    .category2 {
+      padding-bottom: 20px;
+      float: left;
+
+      .MuiOutlinedInput-root {
+        border-radius: 6px 0 0 6px !important;
+
+        .MuiSelect-select {
+          border-radius: 6px 0 0 6px !important;
+        }
+      }
+
+      input[type="text"] {
+        padding: 0 15px;
+        border: 1px solid #cbcbcb;
+        border-left: 0;
+        width: 297px;
+        outline: 0;
+      }
+
+      i {
+        width: 18px;
+        height: 18px;
+        color: #0072bc;
+      }
+
+      label {
+        border: 1px solid #cbcbcb;
+        border-left: 0;
+        border-radius: 0 6px 6px 0;
+        padding: 6px 10px;
+        font-size: 1.1em;
+        cursor: pointer;
+      }
+
+      .reset {
+        color: #0072bc;
+        padding-left: 15px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+
+    .duration {
+      padding-bottom: 20px;
+    }
+  }
+
+  .result {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    padding-bottom: 21px;
+    font-weight: 500;
+  }
+}

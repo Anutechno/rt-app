@@ -1,0 +1,27 @@
+.seller-central-orders {
+  * {
+    font-family: "Inter";
+  }
+
+  .content {
+    padding: 30px 6vw;
+    h1 {
+      padding-top: 41px;
+      padding-bottom: 30px;
+      font-weight: 500;
+      font-size: 2.1em;
+    }
+
+    .seller-central-content {
+      h2 {
+        padding: 9px 34px;
+        font-size: 1.1em;
+        font-weight: 600;
+        color: #0072bc;
+        background-color: #edf6ff;
+        border-radius: 6px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

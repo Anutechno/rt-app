@@ -1,0 +1,129 @@
+.ui-cs-table {
+    border: 1px solid #CBCBCB;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0;
+}
+
+.ui-cs-table-head {
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 200px 1fr 100px;
+        border-bottom: 1px solid #CBCBCB;
+        padding-bottom: 10px;
+
+        li {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            color: #9F2B05;
+
+            &:last-child {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.ui-cd-table-row {
+    >button {
+        width: 100%;
+        border: 0;
+        padding: 8px 0;
+        border-bottom: 1px solid #CBCBCB;
+        background: none;
+
+
+        &.show {
+            border-bottom-color: #2AAC27;
+        }
+
+
+        ul {
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 200px 1fr 100px;
+            align-items: center;
+
+            li {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21px;
+                color: #000000;
+
+                &:first-child {
+                    text-align: start;
+                }
+            }
+
+        }
+    }
+}
+
+.ui-cdtr-status {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 10px;
+
+    &.active {
+        background-color: #2AAC27;
+    }
+}
+
+.ui-cs-table-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+        height: 30px;
+        width: 30px;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+    }
+}
+
+.ui-cs-next-btn,
+.ui-cs-prev-btn {
+    color: #616161;
+    font-size: 18px;
+}
+
+.ui-cs-pagination-no {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+        &.active {
+            background-color: #EDF0FF;
+            color: #0072BC;
+        }
+    }
+}
+
+.ui-cs-table-bottom {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    padding: 10px 0;
+    align-items: center;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #616161;
+        margin-bottom: 0;
+    }
+}

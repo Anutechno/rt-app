@@ -1,0 +1,217 @@
+$red: #eb5454;
+$blue: #0072bc;
+$gray: #616161;
+
+@mixin border {
+  border: 1px solid #cbcbcb;
+}
+
+.list-items {
+  .list-item {
+    * {
+      font-family: "Inter";
+    }
+
+    @include border;
+    border-radius: 0 6px 6px 6px;
+    margin-bottom: 20px;
+
+    .title-date {
+      display: inline-block;
+      margin: 0;
+      border-right: 1px solid #cbcbcb;
+      border-bottom: 1px solid #cbcbcb;
+      padding: 10px 20px;
+      border-radius: 0 0 6px 0;
+      font-weight: 700;
+      font-size: 1em;
+      line-height: 19px;
+
+      .red {
+        color: $red;
+      }
+    }
+
+    .list-left {
+      padding: 0px 20px;
+      padding-right: 0;
+
+      h3 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin: 0;
+        font-size: 1em;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0;
+        padding-bottom: 10px;
+        line-height: 19px;
+
+        span {
+          color: $blue;
+        }
+
+        &.requirement {
+          padding-bottom: 15px !important;
+        }
+      }
+    }
+
+    .list-right {
+      margin-bottom: 20px;
+      margin-left: 36px;
+
+      .list-reason {
+        padding-left: 24px;
+        border-left: 1px solid #cbcbcb;
+
+        h3 {
+          margin: 0;
+          font-size: 1em;
+          font-weight: 600;
+        }
+
+        .not {
+          color: #9f2b05;
+          font-weight: 500;
+          padding-bottom: 10px;
+        }
+
+        .list-detail {
+          padding-bottom: 20px;
+
+          .image {
+            width: 105px;
+            height: 105px;
+            background-color: #c4c4c4;
+
+            img {
+              width: 105px;
+              height: 105px;
+            }
+          }
+
+          .item-detail {
+            padding-left: 10px;
+
+            .item-title {
+              color: $blue;
+            }
+
+            .item-desc {
+              color: $gray;
+            }
+          }
+        }
+      }
+
+      button {
+        float: right;
+        margin-right: 20px;
+        width: 235px;
+        height: 40px;
+        color: white;
+        background-color: $blue;
+        border-radius: 6px;
+        border: 0;
+        outline: 0;
+      }
+    }
+  }
+  .list-paginate {
+    @include border;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    padding: 12px 30px;
+
+    .page-count {
+      font-size: 1.1em;
+      padding-right: 100px;
+    }
+
+    .pagination {
+      margin: 0;
+
+      * {
+        font-size: 1em !important;
+        font-weight: 800 !important;
+      }
+      
+      i {
+        font-size: 0.8em !important;
+        font-weight: 900 !important;
+      }
+
+      li {
+        margin-right: 10px;
+
+        a {
+          color: #6C757D;
+          box-shadow: none;
+        }
+      }
+
+      li.active {
+        background-color: transparent;
+
+        a {
+          background-color: #EDF6FF;
+          color: $blue;
+        }
+      }
+
+      .page-link {
+        border: 0;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding: 5px 13px;
+        width: 34px;
+      }
+    }
+
+    .per-page-result {
+      font-size: 1em;
+
+      span {
+        padding-right: 15px;
+      }
+
+      .MuiOutlinedInput-root {
+        border-radius: 6px;
+        background: #EDF6FF;
+        font-size: 1.1em;
+        color: $blue;
+        font-weight: 500;
+        
+        .MuiSelect-select {
+          border-radius: 6px;
+          border: 0 !important;
+          padding: 8px 15px;
+        }
+
+        fieldset {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .list-items {
+    .list-item {
+      .list-right {
+        margin-left: 0;
+
+        .list-reason {
+          padding-left: 0px;
+          border: 0;
+        }
+      }
+    }
+  }
+}

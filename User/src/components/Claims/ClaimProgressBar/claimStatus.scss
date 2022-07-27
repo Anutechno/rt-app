@@ -1,0 +1,34 @@
+.claim-status {
+  padding: 30px;
+  border-bottom: 1px solid #cbcbcb;
+
+  p {
+    padding-bottom: 10px;
+    margin: 0;
+
+    label {
+      font-size: 1em;
+      font-weight: 400;
+      color: #6c757d;
+      width: 133px;
+    }
+    span {
+      font-size: 1.1em;
+      font-weight: 500;
+      color: #1c1c1c;
+    }
+  }
+
+  .show-more {
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 145%;
+    color: #0072bc;
+    cursor: pointer;
+
+    i {
+      padding-left: 8px;
+      font-size: 0.9em;
+    }
+  }
+}

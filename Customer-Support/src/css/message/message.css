@@ -1,0 +1,79 @@
+.body {
+    padding: 60px;
+}
+
+.section {
+    border: none;
+}
+
+.section .label {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #0072BC;
+}
+
+.section-active {
+    border: solid 1px #e6e0e0;
+    background-color: white;
+}
+
+.section-active .label {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #000000;
+}
+
+.section-active .folder-subsection {
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 10px;
+    /* gray/btn/inactive */
+}
+
+.subsection {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    /* gray/text */
+
+    color: #0072BC;
+}
+
+.subsection-active {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #616161;
+}
+
+.folder-subsection Button {
+    border: white;
+    margin-top: 10px;
+    height: 25px;
+    padding: 5px;
+    padding-top: 0px;
+}

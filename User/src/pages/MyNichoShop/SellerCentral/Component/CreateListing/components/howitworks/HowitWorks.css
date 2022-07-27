@@ -1,0 +1,97 @@
+.main-how-it-work {
+    margin: 30px 25px;
+}
+h3.heading {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 16px 0px;
+}
+.work-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #CBCBCB;
+    margin: 20px 0px;
+    padding: 16px;
+    
+    min-height: 150px;
+
+    /* width: 70%; */
+}
+.list-group-work p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.list-group-work h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-chevron-down:before {
+    content: "\f078";
+    font-family: 'FontAwesome';
+}
+.work-list-main {
+    margin: 30px 25px;
+}
+
+.list-box {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.heading-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list-container {
+    border: 1px solid #CBCBCB;
+    padding: 14px;
+}
+
+.lists {
+    border: 1px solid #CBCBCB;
+    padding: 10px;
+    margin: 4px 0px;
+}
+.lists ul li {
+    padding: 4px;
+}
+.fa-angle-down:before {
+    content: "\f107";
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .lists {
+        border: 1px solid #CBCBCB;
+        padding: 10px 0;
+    }    
+
+.work-list {
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+    gap: 30px;
+    border: 1px solid #CBCBCB;
+    margin: 20px 0px;
+    padding: 16px;
+    width: 100%;
+}
+button.delete-btn {
+    padding-left: 10px;
+}
+button.complete-btn {
+    padding-right: 9px;
+}
+.col-sm-12.col-md-4.category {
+    margin-bottom: 12px;
+}
+p.draft-info {
+    font-size: 14px;
+}
+.action-btns {
+    margin: 14px 0px;
+}
+}

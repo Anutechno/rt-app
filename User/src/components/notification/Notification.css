@@ -1,0 +1,86 @@
+.notification {
+  width: 397px;
+  height: 110px;
+  filter: drop-shadow(0px 0px 20px rgba(117, 117, 117, 0.25));
+
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.notification-close {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 80px;
+}
+
+.notif-bell {
+  border-bottom: 1px solid #cbcbcb;
+  filter: none;
+}
+
+.notification-img {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  background-color: #c4c4c4;
+  margin-right: 15px;
+}
+
+/* .notification .green h2 {
+  color: var(--green-color);
+} */
+
+.notification .notification-text h2 {
+  font-size: 18px;
+}
+
+.notification .notification-text p {
+  font-size: 13px;
+  color: #616161;
+}
+
+.green h2 {
+  color: var(--green-color) !important;
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.gray {
+  color: #616161;
+}
+
+.not1 {
+  position: absolute;
+  right: 0px;
+  top: 125px;
+}
+
+.not2 {
+  position: absolute;
+  right: 0px;
+  top: 250px;
+}
+
+.not3 {
+  position: absolute;
+  right: 0px;
+  top: 375px;
+}
+
+@media screen and (max-width: 450px) {
+  .notification {
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+}

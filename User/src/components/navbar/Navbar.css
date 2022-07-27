@@ -1,0 +1,441 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar img {
+  margin-left: 35px;
+}
+.nav-bar .dropdown {
+  margin-left: 25px;
+}
+.nav-bar .dropdown-menu {
+  right: 0;
+  left: initial;
+  top: 51px;
+}
+.mobile-dot {
+  display: none;
+}
+.sell-btn {
+  width: 85px !important;
+  height: 40px !important;
+  border: 1px solid var(--accent-color-1);
+  border-radius: 6px;
+  color: var(--accent-color-1);
+  font-weight: 500;
+}
+
+.sell-btn a {
+  color: #fff !important;
+}
+
+.nav-bar .account-drop .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: url("../../assets/cancelled-img/user.png") !important;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: relative;
+  top: 2.5px;
+}
+
+.nav-bar .notification-drop .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 12.5px;
+  vertical-align: 0em;
+  content: url("../../assets/cancelled-img/bell.png") !important;
+  border: none;
+  position: relative;
+  top: 2.5px;
+  filter: drop-shadow(0px 0px 15px rgba(114, 114, 114, 0.25));
+}
+
+.nav-bar .dropdown-item:focus,
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: transparent !important;
+}
+
+.nav-bar .btn-primary {
+  color: #fff;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.nav-bar .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem transparent !important;
+}
+
+.nav-bar .signin-btn {
+  background-color: var(--accent-color-1);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 37px;
+}
+
+.nav-bar .signin-btn:hover,
+.nav-bar .signin-btn:active,
+.nav-bar .signin-btn:focus {
+  background-color: var(--accent-color-2);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 37px;
+}
+
+.nav-bar .register-btn {
+  border: 1px solid var(--light-gray) !important;
+  color: var(--accent-color-1);
+  border: none;
+  width: 100px;
+  height: 37px;
+}
+
+.nav-bar .register-btn:hover,
+.nav-bar .register-btn:active,
+.nav-bar .register-btn:focus {
+  color: var(--accent-color-1);
+  border: none;
+  width: 100px;
+  height: 37px;
+}
+
+.nav-bar .account-drop .dropdown-item {
+  display: block;
+  width: auto;
+  padding: 0.5rem 0.1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar .notification-drop .dropdown-item {
+  display: block;
+  width: auto;
+  padding: 0;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: wrap !important;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-item {
+  white-space: normal !important;
+}
+.bell-notify {
+  width: 15px;
+  height: 12px;
+  background: var(--accent-color-1);
+  font-size: 10px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 36px;
+  top: 29px;
+  z-index: 1;
+  color: white;
+  padding-bottom: 14px;
+}
+.nav-bar .account-drop .dropdown-menu {
+  transform: translate(-60px, 12px) !important;
+}
+
+.nav-bar .notification-drop .dropdown-menu {
+  padding: 0;
+  transform: translate(-350px, 17px) !important;
+  position: absolute;
+}
+
+.search-mobile-btn {
+  border: none !important;
+  display: none !important;
+}
+
+.search-mobile-btn i {
+  font-size: 20px;
+  color: var(--gray);
+  color: #6b757c;
+}
+
+.search-mobile-btn:hover,
+.search-mobile-btn:active,
+.search-mobile-btn:focus {
+  background-color: transparent !important;
+}
+
+.nav-bar .btn-primary {
+  color: transparent !important;
+  background-color: transparent !important;
+}
+
+.trolly-icon {
+  width: 36px;
+}
+.trolly-link {
+  position: relative;
+}
+.cart-num {
+  position: absolute;
+  top: -5px;
+  right: 9px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.bell-icon {
+  width: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+  .nav-bar .dropdown-menu {
+    transform: translate(60px, 70px) !important;
+  }
+
+  .sell-btn {
+    width: 78px !important;
+  }
+
+  .trolly-icon {
+    width: 30px;
+  }
+
+  .bell-icon {
+    width: 20px;
+  }
+
+  .nav-bar .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: url("../../assets/cancelled-img/bell.png") !important;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    width: 23px;
+  }
+
+  .nav-bar img {
+    margin-left: 25px;
+  }
+
+  .nav-bar .notification-drop {
+    margin-left: 15px;
+  }
+  .bell-notify {
+    font-size: 9px;
+    right: 32px;
+    top: 29px;
+    padding-bottom: 13px;
+  }
+  .cart-num {
+    top: -5px;
+    right: 8px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .nav-bar .dropdown-menu {
+    transform: translate(60px, 70px) !important;
+  }
+  .trolly-icon {
+    width: 30px;
+  }
+
+  .bell-icon {
+    width: 20px;
+  }
+
+  .nav-bar .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: url(../../assets/icons/Account1280.png) !important;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    width: 23px;
+  }
+
+  .nav-bar img {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .search-mobile-btn {
+    display: flex !important;
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-bar img {
+    margin-left: 12px;
+  }
+  .nav-bar .btn-primary {
+    padding-left: 0;
+  }
+  .notification-drop .btn-primary {
+    padding-right: 0;
+  }
+  .bell-notify {
+    font-size: 8px;
+    right: 20px;
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bell-notify {
+    top: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mobile-dot {
+    margin-left: 20px !important;
+    display: block;
+  }
+  .mobile-dot .dropdown-menu {
+    transform: translate(0) !important;
+  }
+  .mobile-dot .dropdown-menu-dark {
+    background-color: white;
+    text-align: center;
+  }
+  .dropdown-toggle {
+    color: #000;
+    background: transparent;
+    border: 0;
+    padding-right: 0 !important;
+    padding: 0;
+  }
+  .dropdown-toggle:active {
+    color: #000 !important;
+    background: transparent !important;
+    border: 0 !important;
+  }
+  .dropdown-toggle:hover {
+    color: #000 !important;
+    background: transparent !important;
+    border: 0 !important;
+  }
+  .dropdown-toggle:focus {
+    box-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    border: 0 !important;
+  }
+  .trolly-link {
+    display: none;
+  }
+  .nav-bar img {
+    margin-left: 0 !important;
+  }
+  .account-drop {
+    display: none;
+  }
+  .mobile-dot .trolly-link {
+    display: block !important;
+  }
+  .mobile-dot .account-drop {
+    display: block !important;
+    margin-left: 0;
+  }
+  .bell-notify {
+    right: 62px;
+  }
+  .sell-btn {
+    display: none;
+  }
+  .mobile-dot .sell-btn {
+    width: 100% !important;
+    display: block;
+  }
+  .cart-num {
+    right: 0;
+    left: 6px;
+  }
+  .nav-bar .notification-drop .dropdown-toggle::after {
+    margin-left: 8px !important;
+  }
+  .search-mobile-btn {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sell-btn-mob {
+    display: block !important;
+  }
+  .nav-bar .dropdown {
+    margin-left: 0px;
+  }
+
+  .nav-bar .account-drop .dropdown-menu {
+    transform: translate(-60px, 10px) !important;
+  }
+  /* .nav-bar .notification-drop .dropdown-toggle::after {
+    margin-left: 22px !important;
+  } */
+  .search-mobile-btn {
+    margin-right: 12.5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .nav-bar .notification-drop .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 13.5px;
+    vertical-align: 0.2em;
+    content: url("../../assets/cancelled-img/bell.png") !important;
+    border: none;
+    position: relative;
+    top: 2.5px;
+    filter: drop-shadow(0px 0px 15px rgba(114, 114, 114, 0.25));
+  }
+
+  .nav-bar img {
+    margin-left: 15px;
+  }
+
+  .search-mobile-btn i {
+    font-size: 15.5px;
+  }
+
+  .nav-bar .dropdown {
+    padding-top: 5px;
+  }
+
+  .nav-bar .account-drop .dropdown .dropdown-toggle {
+    width: 20px;
+  }
+
+  /* .nav-bar .account-drop .dropdown-menu {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    transform: translate(-191px, 39px);
+  } */
+  .nav-bar .notification-drop .dropdown-menu {
+    transform: translate(-180px, 13px) !important;
+  }
+}

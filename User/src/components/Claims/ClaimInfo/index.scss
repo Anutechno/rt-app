@@ -1,0 +1,26 @@
+.claim-info {
+  h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 24px;
+    color: #9f2b05;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 19px;
+    color: #6c757d;
+    padding-top: 10px;
+
+    span {
+      font-weight: 500;
+      color: #1c1c1c;
+    }
+
+    .order-id {
+      color: #0072bc !important;
+    }
+  }
+}

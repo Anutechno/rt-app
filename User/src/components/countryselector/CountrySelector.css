@@ -1,0 +1,36 @@
+.country-selector {
+  width: 265px;
+  height: 41px;
+}
+
+.css-1okebmr-indicatorSeparator {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: transparent !important;
+  margin: 1px;
+  width: 1px;
+  box-sizing: border-box;
+}
+
+.css-tj5bde-Svg {
+  display: inline-block;
+  fill: #212529 !important;
+  line-height: 1;
+  stroke: currentColor;
+  stroke-width: 0;
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (max-width: 1366px) {
+  .css-319lph-ValueContainer {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .country-selector {
+    margin-bottom: 10px;
+  }
+}

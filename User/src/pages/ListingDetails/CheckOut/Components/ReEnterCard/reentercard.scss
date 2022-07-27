@@ -1,0 +1,45 @@
+.ui-re-enter-card-box {
+    border-top: 1px dashed #CBCBCB;
+    padding-top: 1rem;
+
+    .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(14px, -10px) scale(0.75) !important;
+        background: #fff;
+        padding: 0 4px;
+    }
+
+    .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+        transform: translate(14px, 10px) scale(1);
+    }
+}
+
+.ui-rec-filed {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    button {
+        height: 44px;
+        background-color: #0072BC;
+        transform: translateY(-4px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        width: 120px;
+    }
+}
+
+.ui-re-enter-card-box {
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #EB5454;
+        padding-bottom: 1.4rem;
+    }
+}

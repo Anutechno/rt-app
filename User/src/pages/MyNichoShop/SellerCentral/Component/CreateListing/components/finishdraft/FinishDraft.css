@@ -1,0 +1,83 @@
+.main-finish-draft {
+    margin: 30px 25px;
+    border: 1px solid #CBCBCB;
+    padding: 20px 25px;
+}
+.slick-slider.slick-initialized {
+    margin: 22px 0px;
+}
+.main-draft-sec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 20px;
+}
+img.draft-img {
+    height: 130px;
+    width: 130px;
+}
+p.draft-info {
+    font-size: 14px;
+    font-weight: 400;
+}
+.draft-sec
+{
+    border: 1px solid #CBCBCB;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0px !important;
+}
+
+.action-btns button {
+    color: #0072BC;
+    border: none;
+    background: transparent;
+    /* padding: 0px 10px;
+    border-right: 1px solid #616161; */
+}
+.slick-prev:before, .slick-next:before {
+    
+    color: black !important;
+}
+button.complete-btn {
+    padding-right: 20px;
+    border-right: 1px solid #61616194;
+}
+
+button.delete-btn {
+    padding-left: 12px;
+}
+
+.slick-prev:before {
+    content: "\f104" !important;
+    font-family: FontAwesome !important;
+    font-weight: 600;
+}
+/* button.slick-arrow.slick-prev {
+    transform: rotate(179deg);
+} */
+.slick-next:before {
+    content: "\f105" !important;
+    font-family: FontAwesome !important;
+    font-weight: 600;
+}
+button.slick-arrow.slick-prev, button.slick-arrow.slick-next {
+    border: 1px solid #CBCBCB;
+    height: 30px;
+    width: 30px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 22px !important;
+}
+@media only screen and (max-width: 767px) {
+.main-draft-sec {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    gap: 20px;
+    margin: 0px 0px;
+}
+.main-finish-draft {
+    padding: 0px 24px;
+}
+}

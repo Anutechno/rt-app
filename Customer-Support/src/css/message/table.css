@@ -1,0 +1,138 @@
+.Table {
+    background: #FFFFFF;
+    /* gray/border */
+
+    border: 1px solid #CBCBCB;
+    /* main sh */
+
+    border-radius: 8px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Table tbody td {
+    border-bottom: 1px solid #CBCBCB;
+    height: 42px;
+    vertical-align: middle;
+    padding: 10px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+
+
+    /* gray/text */
+
+    color: #616161;
+}
+
+.Table thead td {
+    padding: 20px;
+    height: 68px;
+}
+
+.Table thead Button {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    /* blue/button/default */
+
+    color: #0072BC;
+}
+
+.Table thead Select {
+    width: 122px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* blue/button/default */
+
+    color: #0072BC;
+}
+
+.Table thead option {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    /* gray/text */
+
+    color: #616161;
+}
+
+.Table tbody .header {
+    background: #F8F8F8;
+    border: none;
+    height: 42px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+
+
+    /* gray/text */
+
+    color: #616161;
+}
+
+.Table .message-read td {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    /* or 23px */
+
+
+    /* серый текст */
+
+    color: #616161;
+}
+
+.Table .message-unread td {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    /* or 23px */
+
+
+    color: #000000;
+}
+
+.Table tfoot td {
+    vertical-align: bottom;
+    height: 98px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* gray/text */
+
+    color: #616161;
+}

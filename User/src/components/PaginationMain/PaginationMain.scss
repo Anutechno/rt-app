@@ -1,0 +1,77 @@
+.product-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    @media (max-width: 1200px) {
+        padding: 14px 20px;
+    }
+    @media (max-width: 600px) {
+        flex-wrap: wrap;
+    }
+    @media (max-width: 375px) {
+        padding: 14px 10px;
+    }
+    .MuiTypography-root {
+        font-family: "Inter" !important;
+        @media (max-width: 1200px) {
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            font-size: 12px;
+        }
+    }
+    .MuiPagination-root {
+        .MuiPagination-ul {
+            .MuiButtonBase-root {
+                font-weight: 600;
+                font-size: 18px;
+                color: var(--gray-text-1);
+                @media (max-width: 1200px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 768px) {
+                    font-size: 12px;
+                    padding: 0;
+                    margin: 0;
+                }
+                .MuiSvgIcon-root {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .product-result {
+        display: flex;
+        align-items: center;
+        @media (max-width: 600px) {
+            width: 100%;
+            margin-top: 22px;
+        }
+        .MuiOutlinedInput-root {
+            color: var(--accent-color-1);
+            background: #edf6ff;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 15px;
+        }
+        .MuiOutlinedInput-notchedOutline {
+            border: 0;
+            border-color: transparent;
+        }
+        .MuiSelect-select {
+            padding: 8px 19px;
+            border-radius: 6px;
+            border: 0 !important;
+            @media (max-width: 1200px) {
+                font-size: 16px;
+            }
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+        .MuiSvgIcon-root {
+            top: 8px;
+        }
+    }
+}

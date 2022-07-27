@@ -1,0 +1,63 @@
+.ui-close-chat-box {
+    padding: 14px 10px;
+
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #1C1C1C;
+
+        &:first-of-type {
+            border-bottom: 1px solid #CBCBCB;
+            padding-bottom: 14px;
+
+        }
+
+        &:last-of-type {
+            font-weight: 600;
+            padding: 14px 0;
+        }
+    }
+}
+
+.ui-cc-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .btn {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        height: 40px;
+
+        &:first-of-type {
+            background: #0072BC;
+            border-radius: 6px;
+            color: #fff;
+            padding: 0 2rem;
+
+            &:hover {
+                background-color: #025892;
+            }
+        }
+
+        &:last-of-type {
+            border: 1px solid #0072BC;
+            border-radius: 6px;
+            color: #0072BC;
+            padding: 0 2rem;
+
+            &:hover {
+                border-color: #025892;
+                color: #025892;
+            }
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
